@@ -16,3 +16,6 @@ Code to prepare GKE cluster
    <br />kubectl exec --namespace default -it svc/jenkins -c jenkins -- /bin/cat /run/secrets/chart-admin-password && echo
 5. Setup a port forwarding to access jenkins on localhost:8080
   <br />kubectl --namespace default port-forward svc/jenkins 8080:8080
+  
+  
+  

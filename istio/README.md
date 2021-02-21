@@ -23,7 +23,7 @@ kubectl label namespace default istio-injection=enabled
 
 5. Create Istio Gateway for your application to expose the application to the outside world.
 <br /> 
-kubectl apply -f istio-gateway.yaml
+kubectl apply -f shop-app-istio-gateway.yaml
 
 <br />
 installation guide -> https://istio.io/latest/docs/setup/platform-setup/gke/
